@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
       - name: ingress.inghost
-        value: jenkins.k8s-13.sa
+        value: jenkins-argo.k8s-13.sa
     repoURL: https://nataliabelogolovaya.github.io/helm-charts/jenkins/
     targetRevision: 0.1.0
   syncPolicy:
